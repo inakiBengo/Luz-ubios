@@ -1,0 +1,38 @@
+.recommended {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax( 320px, 0.25fr));
+  place-content: center ;
+}
+
+.cardRecommended {
+  display: block;
+  width: 100%;
+  max-height: 20rem;
+  aspect-ratio: 2/1;
+
+  & .image {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-1);
+
+    & img {
+      height: 80%;
+      box-shadow: 0 5px 10px black;
+      filter: grayscale(1);
+      transition: 0.2s all ease-in-out;
+    }
+  }
+  & p {
+    color: var(--color-font);
+  }
+}
+.cardRecommended:hover {
+  & p {
+    text-decoration: underline;
+  }
+  & img {
+    filter: grayscale(0);
+  }
+}

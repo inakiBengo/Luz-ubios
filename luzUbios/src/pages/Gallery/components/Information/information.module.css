@@ -1,0 +1,162 @@
+.information {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: 
+  "header"
+  "figure"
+  "info";
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.604);
+}
+
+.infoWidth {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: 
+  "header"
+  "figure"
+  "info";
+}
+
+.header {
+  width: 100%;
+  min-height: 5rem;
+  grid-area: header;
+  color: var(--color-font);
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  & h1 {
+    font-weight: 900;
+    font-size: 2.5em;
+    line-height: 1em;
+  }
+
+  & .text {
+    margin: 1rem 0;
+    max-width: 40rem;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+  & .text::first-letter {
+    font-weight: 900;
+    font-size: 2em;
+  }
+
+  & .date {
+    font-size: 1em;
+    font-weight: 900;
+    opacity: 0.8;
+  }
+
+  & .table {
+    margin: 1rem 0;
+
+    & tr {
+      
+      & td:first-child {
+        font-weight: 900;
+        font-size: 1.1em;
+      }
+    }
+
+    & .colors {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: start;
+
+      & .color {
+        border-radius: 8px;
+        padding: 0.2rem;
+        margin-left: 0.2rem;
+      }
+    }
+  }
+}
+
+.image {
+  min-height: 5rem;
+  grid-area: figure;
+
+  & img {
+    width: 100%;
+    position: sticky;   
+    top: 2.5rem;
+  }
+}
+
+.info {
+  width: 100%;
+  min-height: 5rem;
+  grid-area: info;
+  padding: 1rem var(--padding-side);
+
+  & h2 {
+    color: var(--color-font);
+    padding: 0.5rem 0;
+  }
+
+  & .images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
+    place-content: center;
+    gap: 7px;
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      aspect-ratio: 1/1;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .information {
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 
+    "figure header"
+    "figure header"
+    "figure info";
+
+    & .image {
+      & img {
+        height: calc(100vh - 2.5rem);
+        width:fit-content;
+      }
+    }
+  }
+
+  
+
+  .infoWidth {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "figure"
+    "info";
+
+    & .image {
+      height: auto;
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 2560px) {
+  .information {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "figure"
+    "info";
+    & .image {
+      & img {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+}

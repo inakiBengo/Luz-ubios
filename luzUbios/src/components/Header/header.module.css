@@ -1,0 +1,131 @@
+.header {
+  background-color: var(--color-2);
+  height: 2.5rem;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.container {
+  max-width: 1440px;
+  height: 2.5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+    
+    & .logo {
+      & img {
+        height: 100%;
+        height: 1.5rem;
+      }
+    }
+
+    & .menu {
+      
+      & button {
+        background-color: transparent;
+        border: none;
+        font-weight: 400;
+        font-size: 1.2em;
+        cursor: pointer;
+      }
+      & button:hover {
+        text-decoration: underline;
+      }
+    }
+
+    & .navNone {
+      display: none;
+      height: 0;
+    }
+
+    & .navMenu {
+      display: block;
+      animation: navMenu 0.5s ease-in;
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      background-color: var(--color-1);
+      left: 0;
+      padding: 0 5%;
+
+      & .navHeader {
+        width: 100%;
+        height: 2.5rem;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        color: var(--color-2);
+
+        & a {
+
+          & img {
+            height: 1.5rem;
+          }
+        }
+        & button {
+          color: var(--color-2);
+          font-size: 1em;
+          font-weight: 400;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+    & nav {
+      & ul {
+        display: flex;
+        flex-direction: column;
+
+        & li {
+          width: 100%;
+          height: 4rem;
+          position: relative;
+          animation: navUl 0.5s ease-in;
+
+          & a {
+            display: block;
+            height: 4rem;
+            color: var(--color-2);
+            font-size: 0.8em;
+          }
+          & a:hover {
+            text-decoration: underline;
+          }
+        }
+        & li::before {
+          content: " ";
+          background-color: var(--color-2);
+          width: 100%;
+          height: 1px;
+          position: absolute;
+        }
+      }
+    }
+}
+
+@keyframes navMenu {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes navUl {
+  0% {
+    height: 0;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  to {
+    height: 4rem;
+    opacity: 1;
+  }
+}

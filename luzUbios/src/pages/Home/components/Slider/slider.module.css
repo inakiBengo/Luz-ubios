@@ -1,0 +1,81 @@
+.embla {
+  position: relative;
+  overflow: hidden;
+}
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__prev, .embla__next {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-1);
+  font-size: 4em;
+  position: absolute;
+  z-index: 80;
+  background-color: rgba(0, 0, 0, 0.687);
+  border: none;
+  bottom: 10%;
+  line-height: 1em;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+}
+.embla__prev {
+  left: 8px;
+}
+.embla__next {
+  right: 8px;
+
+}
+.embla__slide {
+  flex: 0 0 auto;
+  min-width: 0;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+
+  & .image {
+    height: 100%;
+    width: 100%;
+
+    & img {
+      height: 100%;
+    }
+  }
+
+  & .text, .textMovil {
+    border: solid 2px var(--color-1);
+    background-color: #0000008b;
+    color: var(--color-1);
+    backdrop-filter: blur(3px);
+    padding: 0.2rem 0.5rem;
+    position: absolute;
+    z-index: 80;
+    display: none;
+    width: 10rem;
+  }
+
+  & .textMovil {
+    display: block;
+    bottom: 3%;
+    left: 28%;
+  }
+}
+.embla__slide:active {
+  cursor: grabbing;
+}
+@media (min-width:768px) {
+  .embla__slide {
+    .text, .textMovil{
+      display: none;
+    }
+  }
+  .embla__slide:hover {
+    & .text {
+      display: block;
+    }
+  }
+}

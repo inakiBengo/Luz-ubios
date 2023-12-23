@@ -1,0 +1,52 @@
+{
+  "topWork": [
+    {
+      "id": 1,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Leonardo_da_Vinci_LUCAN_Hohenstatt_1_portrait.jpg",
+      "title": "Leonardo da Vinci",
+      "date": "1503-10-03",
+      "dimensions": "77 cm x 53 cm",
+      "text": "pepep"
+    },
+    {
+      "id": 2,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg/220px-Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg",
+      "title": "Miguel Angel",
+      "date": "1495-2-12",
+      "dimensions": "460 cm x 880 cm",
+      "text": "pepep"
+    },
+    {
+      "id": 3,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Self_portrait_with_Felt_Hat.jpg/514px-Self_portrait_with_Felt_Hat.jpg",
+      "title": "Vincent van Gogh",
+      "date": "1490-10-03",
+      "dimensions": "34 cm x 24 cm",
+      "text": "pepep"
+    },
+    {
+      "id": 4,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/JuanGris.Portrait_of_Picasso.jpg/245px-JuanGris.Portrait_of_Picasso.jpg",
+      "title": "Pablo Picasso",
+      "date": "1475-10-03",
+      "dimensions": "230 cm x 220 cm",
+      "text": "pepep"
+    },
+    {
+      "id": 5,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Self-portrait_by_Diego_Vel%C3%A1zquez.jpg/220px-Self-portrait_by_Diego_Vel%C3%A1zquez.jpg",
+      "title": "Diego Velázquez",
+      "date": "1489-10-03",
+      "dimensions": "54 cm x 39 cm",
+      "text": "pepep"
+    },
+    {
+      "id": 6,
+      "img": "https://hips.hearstapps.com/hmg-prod/images/autorretrato-con-collar-de-espinas-1940-oleo-sobre-lienzo-47-cm-x-61-cm-harry-ransom-humanities-research-center-art-collection-university-of-texas-ee-1655298147.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "title": "Frida Kahlo",
+      "date": "1474-10-03",
+      "dimensions": "38 cm x 36 cm",
+      "text": "pepep"
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "works": [
+    {
+      "id": 1,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Leonardo_da_Vinci_LUCAN_Hohenstatt_1_portrait.jpg",
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Leonardo_da_Vinci_LUCAN_self-portrait_REVERSE.jpg/220px-Leonardo_da_Vinci_LUCAN_self-portrait_REVERSE.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Leonardo_da_Vinci_LUCAN_self-portrait_FACE.JPG/220px-Leonardo_da_Vinci_LUCAN_self-portrait_FACE.JPG"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Leonardo_da_Vinci_LUCAN_self-portrait_PINXIT_MEA.JPG/220px-Leonardo_da_Vinci_LUCAN_self-portrait_PINXIT_MEA.JPG"
+        }
+      ],
+      "title": "Leonardo da Vinci",
+      "date": "1503-10-03",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "Un retrato de un hombre de finales del siglo xv o principios del siglo xvi que se descubrió en 2008 en un armario de una casa particular en Italia. Se parece mucho a un retrato de Leonardo da Vinci por Cristofano dell'Altissimo en la Galería de los Uffizi, y a un grabado desarrollado por Raffaello Sanzio Morghen en el siglo xix.",
+      "color": "#4c3a30",
+      "colors": ["marron", "negro", "blanco"],
+      "available": false
+    },
+    {
+      "id": 2,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg/220px-Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg",
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Daniele_da_volterra%2C_ritratto_di_michelangelo_buonarroti%2C_1544_ca..JPG/139px-Daniele_da_volterra%2C_ritratto_di_michelangelo_buonarroti%2C_1544_ca..JPG"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Jacopo_del_Conte_-_Portrait_of_Michelangelo_-_WGA5207.jpg/127px-Jacopo_del_Conte_-_Portrait_of_Michelangelo_-_WGA5207.jpg"
+        }
+      ],
+      "title": "Miguel Angel",
+      "date": "1495-2-12",
+      "dimensions": {
+        "x": 460,
+        "y": 880 
+      },
+      "text": "Michelangelo fue pintor, escultor y arquitecto. Además de ser un ciudadano ejemplar, fue un artista con grandes habilidades en cada oficio, nos dejó un gran legado en cómo obtener la perfección.",
+      "color": "#564333",
+      "colors": ["marron", "negro", "blanco"],
+      "available": true
+    },
+    {
+      "id": 3,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Self_portrait_with_Felt_Hat.jpg/514px-Self_portrait_with_Felt_Hat.jpg",
+      "images": [
+        {
+          "src": "https://4.bp.blogspot.com/-LWfBHCdHgl4/UK06_qd4_cI/AAAAAAAAG9c/WFvywwBAEmE/s1600/art+and+life+autorretrato+VG.jpg"
+        },
+        {
+          "src": "https://3.bp.blogspot.com/-8AtWQCsivkM/UK6MFDG6edI/AAAAAAAAG_A/b1ca2j26QsI/s1600/art+and+life+autorretrato+VG+3.jpg"
+        },
+        {
+          "src": "https://4.bp.blogspot.com/-SJasfLbrXmo/UK6MQtdxHFI/AAAAAAAAG_I/LNXfDk9aXIE/s320/art+and+life+autorretrato+VG+4.jpg"
+        }
+      ],
+      "title": "Vincent van Gogh",
+      "date": "1490-10-03",
+      "dimensions": {
+        "x": 34,
+        "y": 24
+      },
+      "text": "Esta tela fue realizada durante la estancia de Van Gogh en París durante el invierno de los años 1887 y 1888. El artista holandés se empezaba a preparar por entonces para dedicarse al retrato, con la esperanza que los encargos obtenidos solucionarían sus dificultades económicas, puesto que aún dependía de su familia. Pero el mercado del arte dedicado a este género estaba en crisis, puesto que la fotografía lo estaba substituyendo. ",
+      "color": "#474a5e",
+      "colors": ["azul", "amarillo", "rojo"],
+      "available": true
+    },
+    {
+      "id": 4,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/JuanGris.Portrait_of_Picasso.jpg/245px-JuanGris.Portrait_of_Picasso.jpg",
+      "images": [
+        {
+          "src": "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvNWY1YzkxNmEwYjllOC5qcGciLCJyZXNpemUsMTUwMHxmb3JtYXQsd2VicCJdfQ.GASkOdALKzXzMHuyQgIzhlBnOSxc5qRoVxIDUQhb31M.webp"
+        },
+        {
+          "src": "https://es-static.z-dn.net/files/d0d/a300ff6355eddd64bfdded45b74baae0.jpg"
+        }
+      ],
+      "title": "Pablo Picasso",
+      "date": "1475-10-03",
+      "dimensions": {
+        "x": 230,
+        "y": 220
+      },
+      "text": "El Retrato de Pablo Picasso muestra a Picasso con 31 años, en posición de sentado, y sosteniendo una paleta. La composición, de colores terrosos, muestra una figura relativamente simétrica y ordenada, donde se pueden apreciar los rasgos del protagonista, típica de las primeras épocas del cubismo, o cubismo analítico, a diferencia de etapas posteriores, cuando las obras son más caóticas y desorganizadas.",
+      "color": "#445a59",
+      "colors": ["marron", "negro", "azul"],
+      "available": true
+    },
+    {
+      "id": 5,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Self-portrait_by_Diego_Vel%C3%A1zquez.jpg/220px-Self-portrait_by_Diego_Vel%C3%A1zquez.jpg",
+      "images": [
+        {
+          "src": "https://bloghistoriadelarte.files.wordpress.com/2012/12/22g.jpg?w=299&h=378"
+        },
+        {
+          "src": "https://lh3.googleusercontent.com/pUDTtEwW6upQo1onEDDUy-v9i6_VRuLw9xAY9-MK4gFdylv7Faz06sydkehzgnaEv_nIH3XIfMxR7jVLgJfkyYD4MsenrvXIBi194SEvCGKr49a9kBCdi-XnMYRquFOn1wRz1CyjsoGm8dt6F6WjaMCpTwCZ48EiMPWcuSgKoHD7RjRZE0WI_QGL1vA5BVCCi-MVT5_J3Q"
+        },
+        {
+          "src": "https://2.bp.blogspot.com/-v1P2qmUOhjk/UQRDIMY1ILI/AAAAAAAABk0/HKfm5gAmNPM/s640/6a00d8341c630a53ef0120a5b4f8eb970c.jpg"
+        }
+      ],
+      "title": "Diego Velázquez",
+      "date": "1489-10-03",
+      "dimensions": {
+        "x": 54,
+        "y": 39
+      },
+      "text": "Muchas de las obras maestras del pintor Velázquez se encuentran repartidas por museos y galerías en el extranjero. Una representación muy importante se encuentra en la ciudad de Londres a causa del coleccionismo producido a partir de la Guerra de la Independencia o las Desamortizaciones en España. Este post está dedicado a todas las obras de Velázquez que se encuentran en las pinacotecas de Londres.",
+      "color": "#b68b5b",
+      "colors": ["marron", "negro", "azul"],
+      "available": true
+    },
+    {
+      "id": 6,
+      "img": "https://hips.hearstapps.com/hmg-prod/images/autorretrato-con-collar-de-espinas-1940-oleo-sobre-lienzo-47-cm-x-61-cm-harry-ransom-humanities-research-center-art-collection-university-of-texas-ee-1655298147.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "images": [
+        {
+          "src": "https://www.eulixe.com/asset/thumbnail,1280,720,center,center/media/eulixe/images/2019/10/03/2019100318384358905.jpg"
+        }
+      ],
+      "title": "Frida Kahlo",
+      "date": "1474-10-03",
+      "dimensions": {
+        "x": 38,
+        "y": 36
+      },
+      "text": "Autora de más de 200 obras, la mexicana Frida Kahlo implementó vanguardias artísticas para establecer una independencia entre ella y las corrientes internacionales, por lo que su trabajo es inclasificable en un único estilo, afirmó Marisol Argüelles.",
+      "color": "#4d5a0a",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 7,
+      "img": "https://www.singulart.com/blog/wp-content/uploads/2023/09/Mona-Lisa-by-Leonardo-da-Vinci-687x1024.jpg",
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Leonardo_da_vinci%2C_la_gioconda%2C_1503-06_circa.jpg/138px-Leonardo_da_vinci%2C_la_gioconda%2C_1503-06_circa.jpg"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_853b5IzrqBQfjAtC1If-T5qpKof2MjHsSmwci8Pn9_yCG7CVGrQJFyVRxCEpxDC80L0&usqp=CAU"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmNuPUXxaaHsio33_RxTr7EtfVW_HPcP077Q&usqp=CAU"
+        }
+      ],
+      "title": "Mona Lisa",
+      "date": "1503-10-03",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "El retrato de Lisa Gherardini, esposa de Francesco del Giocondo, más conocido como La Gioconda o Monna Lisa, es una obra pictórica del polímata renacentista italiano Leonardo da Vinci.",
+      "color": "#465442",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 8,
+      "img": "https://www.singulart.com/blog/wp-content/uploads/2023/10/The-Last-Supper-Leonardo-da-Vinci-1024x577.jpg",
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/La_%C3%9Altima_Cena_%28Juan_de_Juanes%29_%28restaurada%29.jpg/350px-La_%C3%9Altima_Cena_%28Juan_de_Juanes%29_%28restaurada%29.jpg"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPIG8a7yCd6AkqFRVqU7-Xw3wSX8KYQptUBQ&usqp=CAU"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJinO5Pg1nxAkYQc4Q_k5nV3ANL_KANFDr9A&usqp=CAU"
+        }
+      ],
+      "title": "La Última Cena",
+      "date": "1495-2-12",
+      "dimensions": {
+        "x": 460,
+        "y": 880  
+      },
+      "text": "Patrimonio Mundial de la Humanidad de la UNESCO. Deje que un guía historiador de arte le guíe mientras explora el convento, descubra la historia que se esconde detrás de la obra maestra de Da Vinci y acceda luego al refectorio en el que se expone la obra. Este recorrido de 1,5 horas incluye la entrada a Santa Maria delle Grazie y está limitada a 9 personas para poder disfrutar de una experiencia personalizada.",
+      "color": "#9e9081",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 9,
+      "img": "https://www.singulart.com/blog/wp-content/uploads/2023/10/Vitruvian-Man-753x1024.jpg",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "El Hombre de Vitruvio",
+      "date": "1490-10-03",
+      "dimensions": {
+          "x": 34,
+          "y": 24
+        },
+      "text": "famoso dibujo acompañado de notas anatómicas de Leonardo da Vinci realizado alrededor de 1490 en uno de sus diarios. Representa una figura masculina desnuda en 2 posiciones sobreimpresas de brazos y piernas e inscrita en una circunferencia y un cuadrado (Ad quadratum).",
+      "color": "#d1ac75",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 10,
+      "img": "https://www.singulart.com/blog/wp-content/uploads/2023/10/Annunciation-1-2-1024x496.jpg",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "Anunciación",
+      "date": "1475-10-03",
+      "dimensions": {
+       "x": 230,
+       "y": 220 
+      },
+      "text": "es uno de los cuadros más célebres del pintor renacentista italiano Leonardo da Vinci. Está pintado al óleo sobre tabla (madera de álamo) que mide 98 cm de alto y 217 cm de ancho y data del periodo 1472-1475. Se conserva en la Galería de los Uffizi de Florencia.",
+      "color": "#724604",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 11,
+      "img": "https://www.singulart.com/blog/wp-content/uploads/2023/10/Lady-with-an-Ermine-761x1024.jpg",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "Dama con un Armino",
+      "date": "1489-10-03",
+      "dimensions": {
+        "x": 54,
+        "y": 39 
+      },
+      "text": "es un cuadro del pintor renacentista italiano Leonardo da Vinci, realizado hacia 1490. La modelo ha sido identificada con Cecilia Gallerani, retratada cuando era la amante de Ludovico Sforza, duque de Milán y cuando Leonardo estaba a su servicio. ",
+      "color": "#838f82",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 12,
+      "img": "https://www.singulart.com/blog/wp-content/uploads/2023/10/Ginevra-de-Benci-768x814.jpg",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "Ginevra de Benci",
+      "date": "1474-10-03",
+      "dimensions": {
+        "x": 38,
+        "y": 36
+      },
+      "text": "es un cuadro atribuido a Leonardo da Vinci, datado hacia 1474-76. Está realizado al temple y óleo sobre tabla (madera de álamo). Mide 38,8 cm. de alto y 36,7 cm de ancho. Fue adquirido por la National Gallery of Art de Washington en 1967 por 5 millones de dólares pagados a la Casa Real de Liechtenstein, un precio récord para ese tiempo.",
+      "color": "#7b6438",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 13,
+      "img": "https://totenart.com/noticias/wp-content/uploads/2021/11/creacion-de-adan-miguel-angel.jpg",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "La Creación de Adán ",
+      "date": "1511-10-03",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "es un fresco en la bóveda de la Capilla Sixtina, pintado por Miguel Ángel alrededor del año 1511. Ilustra uno de los nueve episodios del Génesis representados allí por el artista toscano, en el cual Dios le da vida a Adán, el primer hombre. Cronológicamente, es el cuarto de los paneles que representan episodios del Génesis en el techo de la capilla, fue de los últimos en ser completados y es una de las obras de arte más apreciadas y reconocidas en el mundo",
+      "color": "#cbc7b2",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 14,
+      "img": "https://totenart.com/noticias/wp-content/uploads/2021/11/expulsion-del-paraiso-mejores-cuadros-miguel-angel.jpg",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "Expulsión del paraíso",
+      "date": "1512-10-03",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "Este fresco es grande, pero por todo lo que hay pintado ahí, parece ser el más grande de todo el conjunto. En él hay seis figuras. Del lado izquierdo están Adán, Eva y Satanás. Del lado derecho vemos a un ángel y nuevamente a Adán y a Eva.",
+      "color": "#dde5f1",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 15,
+      "img": "https://totenart.com/noticias/wp-content/uploads/2021/11/el-juicio-final-Michelangelo-1.jpg",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "El Juicio Final de la Capilla Sixtina ",
+      "date": "1541-10-03",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "es el mural realizado al fresco por Miguel Ángel para decorar el ábside de la Capilla Sixtina (Ciudad del Vaticano, Roma). Miguel Ángel empezó a pintarlo en 1536, casi 25 años después de acabar de pintar la bóveda de la capilla, y lo concluyó en 1541.",
+      "color": "#d0d6d3",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 16,
+      "img": "https://www.reprodart.com/kunst/michelangelo_buonarroti/sistine_chapel.jpg",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "Delphe",
+      "date": "1564-10-03",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "El Sibyl de Delphi es parte del fresco de techo de la Capilla Sixtina del artista maestro italiano Michelangelo. El Delphic Sibyl era una figura legendaria que hizo profecías en el recinto sagrado de Apolo en Delphi, en las laderas del Monte Parnassus. El techo de la Capilla Sixtina, pintado por Miguel Ángel entre 1508 y 1512, es una de las obras de arte más renombradas del Alto Renacimiento.",
+      "color": "#c9bda3",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 17,
+      "img": "https://www.reprodart.com/kunst/michelangelo_buonarroti/sistine_chapel_.jpg",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "Libyan Sibyl",
+      "date": "1564-11-22",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "llamada Femonoe, era la sacerdotisa profética que presidía el Oráculo de Zeus-Amón (Zeus representado con los Cuernos de Amón) en el Oasis de Siwa en el desierto de Libia.",
+      "color": "#c9bda3",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 18,
+      "img": "https://www.reprodart.com/kunst/michelangelo_buonarroti/creation-of-the-sun-and-moon.jpg",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "Creation of the Sun and Moon",
+      "date": "1564-11-22",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "Es uno de los frescos de las nueve escenas del Génesis de Miguel Ángel en el techo de la Capilla Sixtina. Es la segunda escena en la secuencia cronológica del techo, que representa el tercer y cuarto día de la narración de la Creación juntos en un solo panel.",
+      "color": "#c1bfb2",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 19,
+      "img": "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvdGVycmF6YS1jYWZlLXZhbi1nb2doLmpwZyIsInJlc2l6ZSwxNTAwfGZvcm1hdCx3ZWJwIl19.KddcEyGT4ug3DMAbTr8-5wZktIEOlkuEoxFz8EB1LAc.webp",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "Terraza de Café por la noche",
+      "date": "1888-10-03",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "Un café por la noche visto desde fuera. En la terraza están sentadas pequeñas figuras bebiendo. Un enorme farol amarillo ilumina la terraza, la fachada de la casa, la acera, e incluso extiende su resplandor hasta la calle adoquinada que adquiere una tonalidad rosa-violeta.",
+      "color": "#bae7fe",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 20,
+      "img": "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvbm9vbl9yZXN0X2Zyb21fd29ya18tX3Zhbl9nb2doLmpwZWciLCJyZXNpemUsMTUwMHxmb3JtYXQsd2VicCJdfQ.yfXBzjXIrlt_wrKZbGcglUbMheiJEWb9wPxr/3XlJCQY.webp",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "Descanso al mediodía (después de Millet)",
+      "date": "1890-10-03",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "Tomando la obra de Millet, al que Van Gogh idolatraba, el artista holandés se permitió hacer una versión con su propio estilo y el resultado es espectacular, llegando a ser hoy más conocida que la original.",
+      "color": "#f7a32c",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 21,
+      "img": "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvbm9jaGUtZXN0cmVsbGFkYS12YW4tZ29naC5qcGciLCJyZXNpemUsMTUwMHxmb3JtYXQsd2VicCJdfQ.itO7ZDesSKBPXfY_ttkTVdYUWyPzVWLIgsd3JP5l_FQ.webp",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "Noche estrellada",
+      "date": "1889-10-03",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "Van Gogh miraba por la ventana del sanatorio de Saint-Rémy. Ya no tenía el lóbulo de su oreja y se sentía cada vez más acosado por las alucinaciones.",
+      "color": "#26457d",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 22,
+      "img": "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvMDAtdmluY2VudC12YW4tZ29naC10aGUtbmlnaHQtY2FmYzNhOS0xODg4MTM2NTY0NTM4MDA5NC5qcGciLCJyZXNpemUsMTUwMHxmb3JtYXQsd2VicCJdfQ.2I6W/KtglRu96tikXWCp5sYerMDFTEs_A9lX7z4prgks.webp",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "Café nocturno",
+      "date": "1888-10-03",
+      "dimensions":{
+        "x": 77,
+        "y": 53
+      },
+      "text": "Si algo tenía la obra postimpresionista de Van Gogh es que estaba minuciosamente documentada. En sus célebres Cartas a Theo, detallaba sus obras y lo que quería expresar con ellas, ahorrándole al historiador del arte cometer sus habituales errores.",
+      "color": "#fada0b",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 23,
+      "img": "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvdmFuX2dvZ2hfd2hlYXRmaWVsZF93aXRoX2Nyb3dzLmpwZyIsInJlc2l6ZSwxNTAwfGZvcm1hdCx3ZWJwIl19.W8fo6iujYdjX3mx5wr8LMCTNAGaql8AC9cBaEl/MsXyI.webp",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "El último cuadro de Van Gogh",
+      "date": "1890-10-03",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "No es cierto, como dicen algunos rumores, que era este el cuadro que tenía el pintor postimpresionista en su caballete en el momento de dispararse en el estómago.",
+      "color": "#bacdb1",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    },
+    {
+      "id": 24,
+      "img": "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvdmFuZ29naF9hbG1lbmRyby5qcGciLCJyZXNpemUsMTUwMHxmb3JtYXQsd2VicCJdfQ.iRjEBDNqUAxQt34ouMiJ4O60MAW0A_LUTcrupNDuGxw.webp",
+      "images": [
+        {
+          "src": "https://ichef.bbci.co.uk/news/640/cpsprodpb/12E1A/production/_109283377_hi004172659.jpg"
+        },
+        {
+          "src": "https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2023/09/vitruvio-1160x700.jpg"
+        },
+        {
+          "src": "https://1.bp.blogspot.com/-i6licREXdLw/YSheyoyWNZI/AAAAAAAABeU/qm1omfcT370SGNoA8rswM5bLgGZENGdEwCLcBGAsYHQ/s2048/1.1.jpg"
+        }
+      ],
+      "title": "Almendro en flor",
+      "date": "1890-10-03",
+      "dimensions": {
+        "x": 77,
+        "y": 53
+      },
+      "text": "Pintada para su sobrino y ahijado recién nacido, esta obra muestra a un Van Gogh luminoso, lleno de optimismo por el nacimiento del bebé, que sería bautizado con el nombre de Vincent.",
+      "color": "#a4c5cd",
+      "colors": ["marron", "negro", "verde", "celeste"],
+      "available": true
+    }
+  ]
+}
