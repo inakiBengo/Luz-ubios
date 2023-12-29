@@ -1,24 +1,20 @@
 import styles from './available.module.css'
+import {Data} from '../../../../types/works'
 
 interface Props {
-  disponible: {
-    id: number
-    img: string
-    title: string
-    date: string
-  }
+  card: Data
 }
 
-const Card = ({disponible}: Props) => {
+const Card = ({card}: Props) => {
 
   return (
-    <a href={`/Gallery/${disponible.id}`} className={styles.card}>
+    <a href={`/Gallery/${card.id}`} className={styles.card}>
       <div className={styles.image}>
-        <img src={disponible.img} alt="" />
+        <img src={card.img} alt="" />
       </div>
       <div className={styles.text}>
-        <p className={styles.title}>{disponible.title}</p>
-        <p className={styles.date}>{disponible.date}</p>
+        <p className={styles.title}>{card.title}</p>
+        <p className={styles.date}>{card.date}</p>
       </div>
     </a>
   )

@@ -1,11 +1,10 @@
 import { useCallback, useState } from 'react'
 import styles from './slider.module.css'
 import useEmblaCarousel from 'embla-carousel-react'
-import {topWorks} from '../../../../types/topWorks'
+import {Data} from '../../../../types/works'
  
-
 interface Props {
-  topWork: topWorks
+  topWork: Data[] | undefined
 }
 
 const Slider = ({topWork}: Props) => {
@@ -29,11 +28,14 @@ const Slider = ({topWork}: Props) => {
   )
 
   return (
-    <div className={styles.embla}>
+    <>
+    {
+      topWork && topWork.length > 0
+    ? <div className={styles.embla}>
       <div className={styles.embla__viewport} ref={emblaRef}>
         <div className={styles.embla__container}>
           {
-            topWork.topWork.map(item => 
+            topWork.map(item => 
               <a href={`/Gallery/${item.id}`} className={styles.embla__slide} key={item.id} onMouseMove={e => handleMouse(e)}>
                 <div className={styles.image}>
                   <img src={item.img} alt="image" />
@@ -57,6 +59,9 @@ const Slider = ({topWork}: Props) => {
         <i className="bi bi-arrow-right"></i>
       </button>
     </div>
+    : null
+  }
+  </>
   )
 }
 

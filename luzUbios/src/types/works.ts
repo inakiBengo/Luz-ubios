@@ -3,15 +3,17 @@ export interface works {
 }
 
 export interface Data {
-  id: number
-  img: string
+  id: string
   title: string
+  type: string
   date: string
-  dimensions: {x: number, y: number}
-  colors: string[]
+  x: string
+  y: string
   text: string
+  avaliable: string
+  img: string
+  images: string
   color: string
-  available: boolean
-  images: {src: string}[]
+  colors: string
 }
 

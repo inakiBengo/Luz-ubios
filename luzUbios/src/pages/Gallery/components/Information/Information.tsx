@@ -9,8 +9,19 @@ interface Props {
 const Information = ({art}: Props) => {
   const imageRef = useRef<HTMLImageElement | null>(null)
   const [grid, setGrid] = useState(true)
- 
+  const [colors, setColors] = useState<string[]>()
+  const [images, setImages] = useState<string[]>()
+
+  const selectColors = () => {
+    setColors(art?.colors.split(', '))
+  }
+  const selectImages = () => {
+    setImages(art?.images.split(', '))
+  }
+
   useEffect(() => {
+    selectColors()
+    selectImages()
     const timer = setTimeout(() => {
       if(imageRef.current)
       if(1.3 < (imageRef.current.naturalWidth / imageRef.current.naturalHeight)) {
@@ -36,17 +47,17 @@ const Information = ({art}: Props) => {
             <tbody>
               <tr>
                 <td>Disponible:</td>
-                <td>{art?.available ?"SI" :"NO"}</td>
+                <td>{art?.avaliable === 'TRUE' ?"SI" :"NO"}</td>
               </tr>
               <tr>
                 <td>Dimensiones:</td>
-                <td>{`${art?.dimensions.x}cm x ${art?.dimensions.y}cm`}</td>
+                <td>{`${art?.x}cm x ${art?.y}cm`}</td>
               </tr>
               <tr>
                 <td>Colores:</td>
                 <td className={styles.colors}>
                   {
-                    art?.colors.map((item, index) => 
+                    colors?.map((item, index) => 
                       <span key={index} className={styles.color}>{item}</span>  
                     )
                   }
@@ -68,8 +79,8 @@ const Information = ({art}: Props) => {
         
         <div className={styles.images}>
           {
-            art?.images.map((item, index) => 
-              <img src={item.src} alt="" key={index}/>  
+            images?.map((item, index) => 
+              <img src={item} alt="" key={index}/>  
             )
           }        
         </div>

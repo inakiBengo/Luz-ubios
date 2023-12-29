@@ -1,0 +1,30 @@
+.notFound {
+  min-height: 90vh;
+  display: grid;
+  place-content: center;
+  text-align: center;
+
+  & h1 {
+    font-size: 4em;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1em;
+  }
+
+  & p {
+    font-size: 6em;
+    font-weight: 900;
+    line-height: 1em;
+  }
+
+  & a {
+    background-color: var(--color-1);
+    width:fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    color: var(--color-font);
+    font-weight: 900;
+    margin: auto;
+  }
+}
+

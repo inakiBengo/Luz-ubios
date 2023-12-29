@@ -1,37 +1,67 @@
 import Available from "./components/Available/Available"
 import Slider from "./components/Slider/Slider"
-import topWorkData from '../../mocks/topWorksData.json'
-import AvailableData from '../../mocks/AvailableData.json'
-import urbanData from '../../mocks/urbanData.json'
-import StatuesData from '../../mocks/StatuesData.json'
 import Index from "./components/Index/Index"
-import allWorks from '../../mocks/AllWorks.json'
 import About from "./components/About/About"
+import useGoogleSheet from "../../mocks/useGoogleSheet"
+import { useEffect, useState } from "react"
+import {Data} from '../../types/works'
+import Loader from "../../components/Loader/Loader"
+
+interface Props {
+  data: Data[] | undefined
+  loding: boolean
+}
 
 const Home = () => {
+  const [topWork, setTopWork] = useState<Data[]>()
+  const [available, setAvailable] = useState<Data[]>()
+  const [urbanos, setUrbanos] = useState<Data[]>()
+
+
+  const {data, loding}: Props = useGoogleSheet()
+
+  const SearchTopWork = () => {
+    setTopWork(data.slice(0, 6).reverse())
+  }
+  const SearchAvailable = () => {
+    setAvailable(data.filter(item => item.avaliable === 'TRUE').reverse().slice(0,6))
+  }
+  const SearchUrbanos = () => {
+    setUrbanos(data.filter(item => item.type === 'Urbanos').reverse().slice(0,6))
+  }
+
+  useEffect(() => {
+    SearchTopWork()
+    SearchAvailable()
+    SearchUrbanos()
+  }, [loding])
 
   return (
     <div>
-      <main>
+      {
+      loding
+      ?<div><Loader/></div>
+      :<main>
         <section id="proyectos">
-          <Slider topWork={topWorkData}/>
+          <Slider topWork={topWork}/>
         </section>
         <section id="disponibles">
-          <Available title={'Disponibles'} data={AvailableData}/>
+          <Available title={'Disponibles'} data={available}/>
         </section>
         <section id="urbanos"> 
-          <Available title={'Urbanos'} data={urbanData}/>
+          <Available title={'Urbanos'} data={urbanos}/>
         </section>
         <section id="estatuas">
-          <Available title={'Estatuas'} data={StatuesData}/>
+          <Available title={'Estatuas'} data={available}/>
         </section>  
         <section id="index">
-          <Index data={allWorks}/>
+          <Index data={data}/>
         </section>
         <section id="about">
           <About />
         </section>
       </main>
+      }
     </div>
   )
 }
